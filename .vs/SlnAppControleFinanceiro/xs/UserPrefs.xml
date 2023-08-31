@@ -1,9 +1,10 @@
-﻿<Properties StartupConfiguration="{F43E8D73-1953-4D17-92FB-29A8CB9D81A0}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{F43E8D73-1953-4D17-92FB-29A8CB9D81A0}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.AppControleFinanceiro PreferredExecutionTarget="MyAppleMacCatalystID" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AppControleFinanceiro/Views/TransactionList.xaml.cs">
     <Files>
       <File FileName="AppControleFinanceiro/Views/TransactionEdit.xaml" Line="26" Column="29" />
@@ -32,8 +33,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AppControleFinanceiro PreferredExecutionTarget="MyAppleMacCatalystID" />
 </Properties>
