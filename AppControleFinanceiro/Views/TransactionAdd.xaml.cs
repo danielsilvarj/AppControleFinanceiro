@@ -6,4 +6,9 @@ public partial class TransactionAdd : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void TapGestureRecognizer_Tapped(System.Object sender, Microsoft.Maui.Controls.TappedEventArgs e)
+    {
+        Navigation.PopAsync();
+    }
 }

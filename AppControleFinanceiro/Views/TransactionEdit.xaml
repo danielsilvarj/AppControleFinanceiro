@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppControleFinanceiro.Views.TransactionEdit"
@@ -13,12 +13,17 @@
                     VerticalOptions="Center" 
                     HorizontalOptions="Center" 
                     TextColor="White"/>
-                <Label
+                <Image
                     Grid.Row="0"
                     Grid.Column="1"
-                    Text="X"
                     HorizontalOptions="Center" 
-                    TextColor="White"/>
+                    Source="close.png"
+                    WidthRequest="17">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/> 
+
+                    </Image.GestureRecognizers>
+                    </Image>
             </Grid>
         </Border>
         <Grid ColumnDefinitions="*,*" Margin="30, 5">
