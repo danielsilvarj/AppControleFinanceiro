@@ -1,37 +1,33 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{F43E8D73-1953-4D17-92FB-29A8CB9D81A0}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AppControleFinanceiro/Views/TransactionList.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppControleFinanceiro/Views/TransactionAdd.xaml.cs">
     <Files>
-      <File FileName="AppControleFinanceiro/Views/TransactionEdit.xaml" Line="26" Column="29" />
-      <File FileName="AppControleFinanceiro/Views/TransactionAdd.xaml.cs" Line="12" Column="31" />
-      <File FileName="AppControleFinanceiro/Views/TransactionEdit.xaml.cs" Line="11" Column="1" />
-      <File FileName="AppControleFinanceiro/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="AppControleFinanceiro/Views/TransactionList.xaml" Line="1" Column="1" />
-      <File FileName="AppControleFinanceiro/Views/TransactionList.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppControleFinanceiro/Views/TransactionList.xaml" />
+      <File FileName="AppControleFinanceiro/Views/TransactionAdd.xaml" Line="32" Column="34" />
+      <File FileName="AppControleFinanceiro/Views/TransactionAdd.xaml.cs" Line="51" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SlnAppControleFinanceiro">
-            <Node name="AppControleFinanceiro" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="TransactionAdd.xaml" expanded="True" />
-                <Node name="TransactionEdit.xaml" expanded="True" />
-                <Node name="TransactionList.xaml" expanded="True">
-                  <Node name="TransactionList.xaml.cs" selected="True" />
+            <Node name="AppControleFinanceiro">
+              <Node name="Views">
+                <Node name="TransactionAdd.xaml" expanded="True">
+                  <Node name="TransactionAdd.xaml.cs" selected="True" />
                 </Node>
               </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.AppControleFinanceiro PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AppControleFinanceiro PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

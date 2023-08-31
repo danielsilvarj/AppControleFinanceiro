@@ -5,6 +5,7 @@
              Title="TransactionAdd">
     <VerticalStackLayout Spacing="10">
         <Border BackgroundColor="Black" Stroke="Transparent" Padding="15" StrokeShape="RoundRectangle 30" Margin="15">
+            
             <Grid RowDefinitions="Auto" ColumnDefinitions="*, 30">
                 <Label 
                     Grid.Row="0"
@@ -27,23 +28,28 @@
                     </Image>
             </Grid>
         </Border>
+
+        <Label x:Name="LabelError" TextColor="Red" IsVisible="false"  />
+
         <Grid ColumnDefinitions="*,*" Margin="30, 5">
-            <RadioButton 
+            <RadioButton
+                x:Name="RadioIncome"
                 IsChecked="True" 
                 HorizontalOptions="Start"
                 Grid.Column="0"
                 Content="Receita"/>
-            <RadioButton 
+            <RadioButton
+                x:Name="RadioExpense"
                 HorizontalOptions="End" 
                 Grid.Column="1" 
                 Content="Despesa"/>
         </Grid>
 
-        <Entry Placeholder="Nome"  Margin="15, 0"/>
-        <DatePicker  Margin="15, 0" />
+        <Entry Placeholder="Nome" x:Name="EntryName"  Margin="15, 0"/>
+        <DatePicker  x:Name="DatePickerDate" Margin="15, 0" />
         <Entry Placeholder="Valor"  Margin="15, 0" />
 
-        <Button Text="Salvar"  Margin="15, 0" HorizontalOptions="Center" />
+        <Button Clicked="OnButtonClicked_ToSave" Text="Salvar" x:Name="EntryValue" Margin="15, 0" HorizontalOptions="Center" />
     </VerticalStackLayout>
 
 </ContentPage>
