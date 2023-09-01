@@ -28,7 +28,7 @@ public partial class TransactionAdd : ContentPage
         SaveTransactionInDatabase();
 
         Navigation.PopAsync();
-        var count = _repository.GetAll().Count;
+        var count = _repository.GetAll().Count();
         App.Current.MainPage.DisplayAlert("Mensagem!!!", $"Existem {count} registro(s) no banco!", "OK");
 
     }
