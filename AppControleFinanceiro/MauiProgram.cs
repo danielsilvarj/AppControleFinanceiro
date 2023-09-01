@@ -1,4 +1,5 @@
 ﻿using AppControleFinanceiro.Repositories;
+using AppControleFinanceiro.Views;
 using LiteDB;
 using Microsoft.Extensions.Logging;
 
@@ -42,4 +43,13 @@ public static class MauiProgram
 		builder.Services.AddTransient<ITransactionRepository, TransactionRepository>();
 		return builder;
 	}
+
+    public static MauiAppBuilder RegisterViews(this MauiAppBuilder builder)
+    {
+
+        builder.Services.AddTransient<TransactionAdd>();
+        builder.Services.AddTransient<TransactionEdit>();
+        builder.Services.AddTransient<TransactionList>();
+        return builder;
+    }
 }

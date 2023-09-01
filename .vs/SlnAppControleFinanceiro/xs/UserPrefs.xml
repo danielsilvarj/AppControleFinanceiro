@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="AppControleFinanceiro/Views/TransactionAdd.xaml.cs">
     <Files>
       <File FileName="AppControleFinanceiro/Views/TransactionList.xaml" />
-      <File FileName="AppControleFinanceiro/Views/TransactionAdd.xaml" Line="32" Column="34" />
-      <File FileName="AppControleFinanceiro/Views/TransactionAdd.xaml.cs" Line="51" Column="10" />
+      <File FileName="AppControleFinanceiro/Views/TransactionAdd.xaml" />
+      <File FileName="AppControleFinanceiro/Views/TransactionAdd.xaml.cs" Line="56" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,7 @@
           <Node name="SlnAppControleFinanceiro">
             <Node name="AppControleFinanceiro">
               <Node name="Views">
-                <Node name="TransactionAdd.xaml" expanded="True">
+                <Node name="TransactionAdd.xaml">
                   <Node name="TransactionAdd.xaml.cs" selected="True" />
                 </Node>
               </Node>
