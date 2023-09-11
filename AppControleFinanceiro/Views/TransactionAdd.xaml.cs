@@ -8,7 +8,7 @@ public partial class TransactionAdd : ContentPage
 {
     private ITransactionRepository _repository;
 
-	public TransactionAdd(TransactionRepository repository)
+	public TransactionAdd(ITransactionRepository repository)
 	{
 		InitializeComponent();
 
